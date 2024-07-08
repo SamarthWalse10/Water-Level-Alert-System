@@ -1,45 +1,32 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# Water-Level-Alert-System
+A Water Level Alert System using a TTGO SIM7600e-H and a 40A solid state relay to send SMS alerts and automatically control an AC water pump for flood management.
 
-These are common Git commands used in various situations:
-
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
-
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
-
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
-
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
-
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
-
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+This project is a Water Level Alert System designed to manage flood situations in an apartment. It utilizes a TTGO SIM7600e-H development board and a 40A solid state relay to control an AC water pump. The system operates by monitoring water levels using a transistor-based sensor with two thresholds: minimum and maximum. When the water reaches the minimum threshold, an SMS alert is sent and the SIM7600 module wakes from sleep mode. If the water continues to rise and reaches the maximum threshold, the pump is activated and another SMS alert is sent. The pump will drain the water until the level drops below the minimum threshold, at which point the pump turns off and a final SMS alert is sent, after which the SIM7600 module returns to sleep mode to conserve power.
+## Features
+- **SMS Alerts**: Sends SMS notifications when water reaches specified thresholds.
+- **Automatic Pump Control**: Automatically turns the water pump on and off based on the water level.
+- **Energy Efficient**: Utilizes sleep mode in the SIM7600 module to conserve power when the system is idle.
+- **High Current Handling**: Controls an AC water pump with up to 40A current using a solid state relay.
+- **Transistor-Based Sensor**: Monitors water levels accurately using a simple and reliable transistor circuit.
+## Components Required
+1. **TTGO SIM7600e-H Development Board**: Used for GSM communication and SMS alerts.
+2. **40A Solid State Relay**: Controls the AC water pump based on signals from the development board.
+3. **Transistor-Based Water Level Sensor**: Monitors water levels with two thresholds (minimum and maximum).
+4. **AC Water Pump**: Drains water from the apartment during flood situations.
+5. **SIM Card**: Provides SMS capability for the SIM7600 module.
+6. **Jumper Wires and Connectors**: For connecting components on breadboard or PCB.
+7. **5V Power Supply**: Supplies power to the development board.
+## Getting Started
+- Clone the repository:
+   ```bash
+   git clone https://github.com/SamarthWalse10/Water-Level-Alert-System.git
+- Upload the provided code to the TTGO SIM7600e-H development board using your preferred IDE.
+- Install the SoftwareSerial library for communicating with the SIM7600 module.
+- Modify the code as needed to configure SMS recipient numbers, threshold values, and other parameters specific to your setup.
+- Insert the SIM Card into the TTGO development board.
+- Power on the system and monitor the serial output (e.g., Arduino Serial Monitor) for debugging and status messages.
+- Observe the system's behavior as the water level reaches the defined thresholds:
+- SMS alerts will be sent when the water level reaches the minimum and maximum thresholds.
+- The water pump will automatically turn on and off based on the water level.
+## Screenshots
+![Screenshot 2023-03-14 232702](https://github.com/SamarthWalse10/RISC-Based-Processor/assets/125689593/8cad19a8-ec88-4fa6-8d71-05cb5145022b)
