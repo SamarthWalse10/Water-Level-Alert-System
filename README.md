@@ -29,4 +29,5 @@ This project is a Water Level Alert System designed to manage flood situations i
 - SMS alerts will be sent when the water level reaches the minimum and maximum thresholds.
 - The water pump will automatically turn on and off based on the water level.
 ## Screenshots
-![WhatsApp Image 2024-07-08 at 14 38 41_55f3b351](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/34774879-9dd2-4cf1-84c1-02508d18c43f)
+![WhatsApp Image 2024-07-08 at 14 40 06_17eaceef (1)](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/746ff6c3-9b9a-40a3-964b-862417bb46a0)
+
