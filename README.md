@@ -30,3 +30,11 @@ This project is a Water Level Alert System designed to manage flood situations i
 - The water pump will automatically turn on and off based on the water level.
 ## Screenshots
 ![WhatsApp Image 2024-07-08 at 14 40 06_17eaceef (1)](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/746ff6c3-9b9a-40a3-964b-862417bb46a0)
+![WhatsApp Image 2024-07-08 at 15 06 18_44cc2e2a](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/647c0145-fcda-419a-b849-5644e54f1b69)
+![WhatsApp Image 2024-07-08 at 15 06 19_18614e45](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/0635f996-a26d-48ef-beb0-9e001ffebea0)
+![WhatsApp Image 2024-07-08 at 15 06 19_cde7112d](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/83314c8c-aabd-4918-9433-dbcbde30a1cd)
+![WhatsApp Image 2024-07-08 at 15 06 20_b560f216](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/0a24270d-9f3d-40ae-a6b6-2d4685f09e97)
+![WhatsApp Image 2024-07-08 at 15 06 20_3ef4d25f](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/d099013f-f822-4737-a055-75e9de2cfd43)
+![WhatsApp Image 2024-07-08 at 15 06 20_85866c97](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/da721d7e-526c-4d01-bdb5-9da326bf2453)
+![WhatsApp Image 2024-07-08 at 15 06 21_c215d706](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/44a00325-4e6f-4e81-a046-c73b3a31c3c1)
+![WhatsApp Image 2024-07-08 at 15 06 22_8a8024a5](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/a1615849-2783-4eb3-a293-240a2347b68a)
