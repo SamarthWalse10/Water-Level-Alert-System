@@ -37,4 +37,4 @@ This project is a Water Level Alert System designed to manage flood situations i
 ![WhatsApp Image 2024-07-08 at 15 06 20_3ef4d25f](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/d099013f-f822-4737-a055-75e9de2cfd43)
 ![WhatsApp Image 2024-07-08 at 15 06 20_85866c97](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/da721d7e-526c-4d01-bdb5-9da326bf2453)
 ![WhatsApp Image 2024-07-08 at 15 06 21_c215d706](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/44a00325-4e6f-4e81-a046-c73b3a31c3c1)
-![WhatsApp Image 2024-07-08 at 15 06 22_8a8024a5](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/a1615849-2783-4eb3-a293-240a2347b68a)
+![WhatsApp Image 2024-07-08 at 15 14 10_1f616329](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/7f5d8705-95d1-4807-bb2a-3e2d68ae9f3d)
