@@ -30,4 +30,3 @@ This project is a Water Level Alert System designed to manage flood situations i
 - The water pump will automatically turn on and off based on the water level.
 ## Screenshots
 ![WhatsApp Image 2024-07-08 at 14 40 06_17eaceef (1)](https://github.com/SamarthWalse10/Water-Level-Alert-System/assets/125689593/746ff6c3-9b9a-40a3-964b-862417bb46a0)
-

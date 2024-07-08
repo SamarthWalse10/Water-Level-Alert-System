@@ -1,3 +1,12 @@
+
+/**************************************************************************
+ * Created by Samarth Walse                                               *
+ * BTech Student, Electrical Engineering                                  *
+ * IIT Mandi, Himachal Pradesh, India                                     *
+ * Email: samarthwalse10@gmail.com                                        *
+ * Phone: +918308305181                                                   *
+ **************************************************************************/
+
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
