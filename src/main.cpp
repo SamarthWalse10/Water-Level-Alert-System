@@ -28,7 +28,7 @@ bool simActive = 0;
 bool pumpActive = 0;
 bool minThresholdAlertSent = 0;
 bool maxThresholdAlertSent = 0;
-String mobileNumber[2] = {"xxxxxxxxxx", "xxxxxxxxxx"}; // Replace "xxxxxxxxxx" with your mobile numbers without country code (India +91 is already added)
+String mobileNumber[3] = {"xxxxxxxxxx", "xxxxxxxxxx", "xxxxxxxxxx"}; // Replace "xxxxxxxxxx" with your mobile numbers without country code (India +91 is already added)
 unsigned long simONCounter;
 unsigned long simOFFCounter;
 
@@ -132,6 +132,7 @@ void loop()
       }
       sendSMS(mobileNumber[0], "The Water Level has Reached 2nd Threshold, Turned on the Pump");
       sendSMS(mobileNumber[1], "The Water Level has Reached 2nd Threshold, Turned on the Pump");
+      sendSMS(mobileNumber[2], "The Water Level has Reached 2nd Threshold, Turned on the Pump");
       Serial.println("SMS Alert Sent Successfully");
       maxThresholdAlertSent = 1;
     }
@@ -158,6 +159,7 @@ void loop()
         }
         sendSMS(mobileNumber[0], "The Water Level has Reached 1st Threshold, Water Starting to Fill");
         sendSMS(mobileNumber[1], "The Water Level has Reached 1st Threshold, Water Starting to Fill");
+        sendSMS(mobileNumber[2], "The Water Level has Reached 1st Threshold, Water Starting to Fill");
         Serial.println("SMS Alert Sent Successfully");
         minThresholdAlertSent = 1;
       }
@@ -179,6 +181,7 @@ void loop()
       Serial.println("The Water Level has itself reached below 1st Threshold, Pump was not Turned on...  Sending SMS Alert");
       sendSMS(mobileNumber[0], "The Water Level has itself reached below 1st Threshold, Pump was not Turned on");
       sendSMS(mobileNumber[1], "The Water Level has itself reached below 1st Threshold, Pump was not Turned on");
+      sendSMS(mobileNumber[2], "The Water Level has itself reached below 1st Threshold, Pump was not Turned on");
       Serial.println("SMS Alert Sent Successfully");
       minThresholdAlertSent = 0;
 
@@ -202,6 +205,7 @@ void loop()
       Serial.println("The Water Level has reached below 1st Threshold, Turned off the Pump...  Sending SMS Alert");
       sendSMS(mobileNumber[0], "The Water Level has reached below 1st Threshold, Turned off the Pump");
       sendSMS(mobileNumber[1], "The Water Level has reached below 1st Threshold, Turned off the Pump");
+      sendSMS(mobileNumber[2], "The Water Level has reached below 1st Threshold, Turned off the Pump");
       Serial.println("SMS Alert Sent Successfully");
       maxThresholdAlertSent = 0;
       minThresholdAlertSent = 0;
